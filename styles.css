@@ -1,0 +1,76 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111827;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 35px 20px;
+    background: #1f2937;
+}
+
+header h1 {
+    color: #60a5fa;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+.intro {
+    margin-bottom: 30px;
+}
+
+input {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+.biblioteca {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 20px;
+}
+
+.juego {
+    background: #1f2937;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.2s;
+    overflow: hidden;
+}
+
+.juego:hover {
+    transform: translateY(-5px);
+}
+
+.juego img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.juego p {
+    color: #9ca3af;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #9ca3af;
+}
